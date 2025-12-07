@@ -1,0 +1,128 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 20px;
+            color: white;
+            align-items: center;
+            text-align: center;
+            background-image: url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/158c4532-1ab3-4ce5-8ed4-f59ce7e847d2/O.B.+Montessori+Center+Greenhills+Campus');
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/158c4532-1ab3-4ce5-8ed4-f59ce7e847d2/O.B.+Montessori+Center+Greenhills+Campus');
+            background-repeat: no-repeat;
+            background-size: cover;
+            min-height: 100vh;
+        }
+        body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                          url('https://images.squarespace-cdn.com/content/v1/664c7ae50eea9c731b37e817/158c4532-1ab3-4ce5-8ed4-f59ce7e847d2/O.B.+Montessori+Center+Greenhills+Campus');
+        background-size: cover;
+        background-position: center;
+
+        filter: blur(10px); 
+        transform: scale(1.1);
+        z-index: -1;}
+        .form-bg {
+            background: rgba(255,255,255,0.95);
+        }
+        .course-box {
+            background-color: rgb(33, 52, 80);
+            border-radius: 7px;
+        }
+        .course-img {
+            width: 250px;
+            height: 200px;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light border border-dark">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <img src="https://files.orangeapps.ph/disk001/School_Files/1/school-67/school_profile/1724046700-342.png" alt="Logo" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="courses.html" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="enroll.html" class="nav-link">Enroll Now</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About the Members</a></li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input type="text" class="form-control me-2" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+<div class="mt-5 text-dark">
+    <div class="mb-4">
+    <h1 style="color:white"><b>About the Group Members</b></h1>
+</div>
+    <!--Co-->
+    <div class=" container mb-5 bg-white bg-opacity-95 p-4 p-md-4 rounded shadow border border-dark mx-auto">
+        <h2>Elianna Co</h2>
+        <ol  class="d-inline-block text-info text-start">
+            <li>Group Leader</li>
+            <li>Did Nav Bar and Home Page</li>
+            <li>Compiled the group's code</li>
+        </ol><br>
+        <img src="https://drive.google.com/thumbnail?id=1DYIFv4iMQhy0jghckTan1sliUsK45GSs" alt="Elianna Co Picture" class="rounded" height="" width="250">
+    </div>
+
+    <!--De Guzman-->
+    <div class="container mb-5 bg-white bg-opacity-95 p-4 p-md-4 rounded shadow border border-dark mx-auto">
+        <h2>Vita De Guzman</h2>
+        <ol  class="d-inline-block text-info text-start">
+            <li>Did Enroll Now</li>
+        </ol><br>
+        <img src="https://drive.google.com/thumbnail?id=1X5HxlJUDM11_1e5ExralRLuohKEXx-w5" alt="Vita De Guzman Picture" class="rounded" height="" width="250">
+    </div>
+
+    <!--Sarmiento-->
+    <div class="container mb-5 bg-white bg-opacity-95 p-4 p-md-4 rounded shadow border border-dark mx-auto">
+        <h2>Georgina Sarmiento</h2>
+        <ol  class="d-inline-block text-info text-start">
+            <li>Did Courses Offered</li>
+        </ol><br>
+        <img src="https://drive.google.com/thumbnail?id=1D01clGSoSDMIkiQXMP_jhmHrEmJq5wou" alt="Georgina Sarmiento Picture" class="rounded" height="" width="250">
+    </div>
+
+  <!--Paredes-->
+    <div class="container mb-5 bg-white bg-opacity-95 p-4 p-md-4 rounded shadow border border-dark mx-auto">
+        <h2>Hermione Parades</h2>
+        <ol  class="d-inline-block text-info text-start">
+            <li>Did Contact Us</li>
+        </ol><br>
+        <img src="https://drive.google.com/thumbnail?id=1MTRo3PHA6p9wbqIb7u_zoJtA6OGGij6W" alt="Hermione Parades Picture" class="rounded" height="" width="250">
+    </div>
+
+   <!--Toralde-->
+    <div class="container mb-5 bg-white bg-opacity-95 p-4 p-md-4 rounded shadow border border-dark mx-auto">
+        <h2>Stephanie Toralde</h2>
+        <ol  class="d-inline-block text-info text-start">
+            <li>Did this page</li>
+        </ol><br>
+        <img src="https://drive.google.com/thumbnail?id=1Ozcs_gSvHtJeHLxGWlLud_4OwYigE-dH" alt="Stephanie Toralde Picture" class="rounded" height="" width="250">
+    </div>
+</div>
+        </body>
+        </html>
